@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import User from './components/User'
 import ReactPlayer from 'react-player'
+import MovieList from './components/MovieList'
 
 
 function App() {
@@ -14,6 +15,12 @@ function App() {
       <User userName="Alice" age={30} />
       <User userName="Bob" age={40} />
       <User userName="Charlie" age={50} />
+
+      <hr />
+
+      <MovieList />
+
+      <hr />
 
       <MyFirstComponent />
 
